@@ -12,6 +12,8 @@ body {
   overflow-y:hidden;
   justify-content: center;
   background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  
  
 
 }
@@ -33,10 +35,7 @@ h1{
     display: flex;
     margin: 0 auto;
     background-color: hsl(0, 0%, 100%);
-    margin-top:50%;
-    margin-bottom:50%;
-    width:650px;
-    height: 500px;
+    height: 550px; max-width: 600px; 
     border-top-right-radius:15px;
     border-bottom-right-radius:15px;
     border-top-left-radius:15px;
